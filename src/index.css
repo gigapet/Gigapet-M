@@ -396,6 +396,11 @@ img {
     margin: 0;
   }
 
+  .active-tab {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
   .active-tab img {
     width: 420px;
     height: 400px;

@@ -91,23 +91,26 @@ links.forEach(function(section) {
   return new Tab(section);
 });
 
+console.log(links)
+
+let cool = document.querySelectorAll('p')
+console.log(cool)
 
 let images = document.querySelectorAll('.citem');
-let currentSlide = 0;
-let timing = setInterval(nextSlide,2000);
 
-console.log(currentSlide)
 console.log(images)
+let current = 0;
+let timing = setInterval(nextImage,2000);
 
-function nextSlide() {
-  slides[currentSlide].className = 'citem';
-  currentSlide = (currentSlide+1)%slides.length;
-  slides[currentSlide].className = 'active-img';
+console.log(current)
+
+function nextImage() {
+  images[current].className = 'citem';
+  current = (current+1)%images.length;
+  images[current].className = 'active-img';
+console.log(current)
 }
 
-let text = document.querySelector('.new');
-console.log(text)
-console.log(currentSlide)
 
 
 // import React from 'react';

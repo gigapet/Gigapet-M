@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="stylesheet" href="../src/index.css">
-    <script src="../src/index.js"></script>
+    <script src="../src/index.js" async></script>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <meta
       name="viewport"
@@ -30,19 +30,6 @@
     <title>Gigapet App</title>
   </head>
   <body class="container main">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
     <header class="navigation">
       <div>
         <nav class="navbar">
@@ -79,7 +66,6 @@
         <h2>Food choices</h2>
 
         <ul class="carousel">
-          <div class="new">why</div>
           <img data-food="food1" class="citem active-img" src="images/veggies.jpg" alt="vegetables">
           <img data-food="food2" class="citem" src="images/meat.jpg" alt="meats" >
           <img data-food="food3"  class="citem"src="images/sugar.jpg" alt="sugar" >
