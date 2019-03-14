@@ -16,6 +16,7 @@ code {
 @font-face {
   font-family: font;
   src: url(HOMOARAK.TTF);
+  src: url(HOMOARAK.woff);
 }
 
 /*Page reset*/
