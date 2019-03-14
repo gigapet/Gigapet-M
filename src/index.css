@@ -219,22 +219,25 @@ img {
 .right-side {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 35%;
 }
 
 .right-side .citem {
-  display: none;
-  width: auto;
-  height: 250px;
-  position: relative;
+  /* display: none; */
+  position: absolute;
+  height: 400px;
+  width: 400px;
   opacity: 0;
   z-index: 1;
-  transition: opacity 1s;
+  transition: opacity 1.5s;
 }
 
 .right-side .active-img {
-  display: block;
+  /* display: inline; */
+  height: 400px;
+  width: 400px;
   opacity: 1;
   z-index: 2;
 }

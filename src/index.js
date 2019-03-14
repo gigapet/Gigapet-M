@@ -100,7 +100,7 @@ let images = document.querySelectorAll('.citem');
 
 console.log(images)
 let current = 0;
-let timing = setInterval(nextImage,2000);
+let timing = setInterval(nextImage,3000);
 
 console.log(current)
 
