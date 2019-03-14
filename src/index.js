@@ -92,9 +92,12 @@ links.forEach(function(section) {
 });
 
 
-let slides = document.querySelectorAll('.citem');
+let images = document.querySelectorAll('.citem');
 let currentSlide = 0;
 let timing = setInterval(nextSlide,2000);
+
+console.log(currentSlide)
+console.log(images)
 
 function nextSlide() {
   slides[currentSlide].className = 'citem';
@@ -102,6 +105,9 @@ function nextSlide() {
   slides[currentSlide].className = 'active-img';
 }
 
+let text = document.querySelector('.new');
+console.log(text)
+console.log(currentSlide)
 
 
 // import React from 'react';
